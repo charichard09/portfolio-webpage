@@ -1,5 +1,4 @@
 * {
-  font-family: sans-serif;
   box-sizing: border-box;
 }
 
@@ -7,4 +6,8 @@
   margin: 2px;
   border: solid black 2px;
   padding: 2px;
+}
+
+.name-plate {
+  font-family: 'Courier New', Courier, monospace;
 }
