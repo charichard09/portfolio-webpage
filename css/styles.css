@@ -22,7 +22,7 @@
 }
 
 .img-me1 {
-  width: 30vw;
+  width: 16vw;
   height: auto;
   margin: 20px;
   float: left;
@@ -35,6 +35,6 @@
   display: inline-block;
 }
 
-ul {
+.rm-list-style {
   list-style-type: none;
 }
