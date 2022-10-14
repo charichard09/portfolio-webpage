@@ -7,14 +7,15 @@
   border: solid black 2px;
   padding: 2px;
   overflow: hidden;
+  background-color: grey;
 }
 
 .name-plate {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: sans-serif;
 }
 
 .about-me {
-  background-color: grey;
+  font-family: sans-serif;
 }
 
 .text-center {
@@ -37,4 +38,8 @@
 
 .rm-list-style {
   list-style-type: none;
+}
+
+a {
+  color: rgb(31, 31, 158);
 }
