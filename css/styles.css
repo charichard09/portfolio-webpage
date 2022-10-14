@@ -6,8 +6,31 @@
   margin: 2px;
   border: solid black 2px;
   padding: 2px;
+  overflow: hidden;
 }
 
 .name-plate {
   font-family: 'Courier New', Courier, monospace;
+}
+
+.about-me {
+  background-color: grey;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-me1 {
+  width: 30vw;
+  height: auto;
+  margin: 20px;
+  float: left;
+}
+
+.drop-cap {
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 10px;
+  display: inline-block;
 }
