@@ -27,7 +27,7 @@ _This is my portfolio webpage to let people know a little about myself and to sh
 
 ## License
 
-_If you have any issues or have questions, ideas or concerns please contact me at ![charichard09@gmail.com](mailto:charichard09@gmail.com)_
+_If you have any issues or have questions, ideas or concerns please contact me at [charichard09@gmail.com](mailto:charichard09@gmail.com)_
 
 MIT License
 
