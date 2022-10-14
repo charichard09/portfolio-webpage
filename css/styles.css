@@ -34,3 +34,7 @@
   line-height: 10px;
   display: inline-block;
 }
+
+ul {
+  list-style-type: none;
+}
