@@ -1,21 +1,3 @@
-<!-- Create a portfolio webpage. 
-  include:
-  -my name
-  -image of myself
-  -list of projects with respective links to GitHub repo >
-    project description, language used
-  -about me section
-  -background (education, job experience, why I took a programming class)
-  -current interests, hobbies, skills
-
-  tools needed to be showcased:
-  -HTML tags are all used: p, h, ul, ol, li, em, strong, a, img, div, and span
-  -CSS with typography styles, the box model (including margin, border, and padding), and floats
-  -Commits are made regularly with clear messages that finish the phrase "It will…"
-  -README
-  -deploy to GitHub pages
--->
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -24,25 +6,11 @@
   <link href="./css/styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-  
-  <!--Non MVP: Header
-  
-  -->
 
-  <!--  Name Plate
-    add name in h1 element > style with font-family
-  -->
   <div class="name-plate general-box">
     <h1>Richard Cha</h1>
   </div>
 
-  <!-- About Me 
-    -find picture of myself and save as jpg in img folder > add img element with src to my picture > 
-    add css to float img left > Non MVP: add circular boarder
-      -add h3 element as title "About Me"
-        -add p element for "Hello! My name is Richard Cha.. answer why I wanted to take a programming course, education, job 
-        experience > add span element to first letter in p element with class="drop cap" to style > add style to .css
-  -->
   <div class="about-me general-box">
     <img src="./img/me1.jpg" class="img-me1">
     <h3 class="text-center">About Me</h3>
@@ -57,12 +25,6 @@
     </p>
   </div>
 
-  <!-- About Me Cont..
-    -add h3 element for title "Interests, Hobbies, Skills: > ul element for interests, hobbies, skills > 
-    fill in those details 
-      -add h3 element for title "top 3 fields I've always wanted to take programming to:" > add ol element with 3 li >
-      add strong element with "Space" "Robotics" "Fitness" text > Non-MVP: fill in why 
-  -->
   <div class="about-me general-box">
     <h3 class="text-center">Top 3 Interests, Skills, Hobbies</h3>
     <h5>Interests:</h5>
@@ -88,18 +50,6 @@
     </ol>
   </div>
 
-  <!-- List of Projects 
-    -add h3 element with "My Journey So Far" > add em element to "So Far"
-      -add 3 columns > add CSS centering style
-        -in column 1 add h3 element for "Pre-Coding Class" title > IN NOTEPAD: find 3 old repo's on GitHub, note project name, 
-        date (to know chronological order), link, language, and description for each > in chronological top to bottom order, 
-        add h3 element for name > add anchor element with href to repo > add p element for project details > repeat for 
-        other 2  
-          -in column 2 add h3 element for "Projects In Epidocus" title > IN NOTEPAD: find 3 repo's of collabed GitHub projects,
-          note name of project, date (to know chronological order), link, language, all authors, project details for all 3 > 
-          add h3 element for name > add anchor element with href to repo > add p element for project details > 
-          add p element for co-authors if any > repeat for other 2
-  -->
   <div class ="projects general-box">
     <h3 class="text-center">My Journey <em>So Far</em></h3>
     <div class="row">
@@ -207,12 +157,5 @@
       </div>
     </div>
   </div>
-
-  <!--  Non-MVP: Footer -->
-
-  <!--  Reminder if you've reached this point: Have you added a README.md? -->
-
-  <!--  Double check MVP, if ready, branch to make a branch to play around with more fun styling, then 
-    delete this and top intro comment, commit, push, then push to GitHub Pages-->
 </body>
 </html>
