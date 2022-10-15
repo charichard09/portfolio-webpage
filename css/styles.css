@@ -49,3 +49,15 @@
 a {
   color: rgb(31, 31, 158);
 }
+
+.banner {
+  width: 50vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.name {
+  float: left;
+  vertical-align: center;
+}
