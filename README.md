@@ -23,7 +23,7 @@ _This is my portfolio webpage to let people know a little about myself and to sh
 
 ## Known Bugs
 
-* _Header banner does not fill correctly_
+* _Header background image does not fit correctly_
 
 ## License
 
